@@ -28,6 +28,27 @@ main {
   margin-bottom: 40px;
 }
 
+.home-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.home-gallery img {
+  width: 280px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.home-gallery img:hover {
+  transform: scale(1.05);
+}
+
+
 .home-menu button {
   padding: 20px 30px;
   font-size: 18px;
