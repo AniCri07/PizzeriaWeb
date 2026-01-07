@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizze - Bella Pizza</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="indexJS.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>Le nostre Pizze</h1>
+  <p>Impasto artigianale, ingredienti di qualità</p>
+</header>
+
+<main>
+
+<section class="home-menu">
+    <button onclick="vaiAlMenu('pizze')">🍕 Pizze</button>
+    <button onclick="vaiAlMenu('dolci')">🍰 Dolci</button>
+    <button onclick="vaiAlMenu('bevande')">🥤 Bevande</button>
+    <button onclick="vaiAlMenu('index')">🏡 Home</button>
+  </section>
+
+  <section class="menu-grid">
+
+    <!-- TEMPLATE PORTATA PIZZA -->
+    <div class="menu-card">
+      <img src="imgs/pizzaMargherita.jpg" alt="Pizza Margherita">
+      <h3>Margherita</h3>
+      <p class="descrizione">
+        Pomodoro San Marzano, mozzarella fior di latte, basilico fresco.
+      </p>
+      <p class="prezzo">€6,50</p>
+    </div>
+    <!-- FINE TEMPLATE -->
+
+    <div class="menu-card">
+      <img src="imgs/pizzaDiavola.jpg" alt="Pizza Diavola">
+      <h3>Diavola</h3>
+      <p class="descrizione">
+        Pomodoro, mozzarella, salame piccante.
+      </p>
+      <p class="prezzo">€7,50</p>
+    </div>
+
+    <div class="menu-card">
+      <img src="imgs/pizzaQuattroFormaggi.jpg" alt="Pizza Quattro Formaggi">
+      <h3>Quattro Formaggi</h3>
+      <p class="descrizione">
+        Mozzarella, gorgonzola, fontina, parmigiano.
+      </p>
+      <p class="prezzo">€8,00</p>
+    </div>
+
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Ristorante Bella Pizza</p>
+</footer>
+
+</body>
+</html>
